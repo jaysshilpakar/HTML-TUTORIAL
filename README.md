@@ -1,4 +1,4 @@
-HTML TUTORIAL
+[HTML TUTORIAL](https://jaysshilpakar.github.io/HTML-TUTORIAL)
 
 1. SET UP A CODE EDITOR IN PC
 
