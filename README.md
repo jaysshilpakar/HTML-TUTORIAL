@@ -10,7 +10,7 @@ HTML TUTORIAL
 - Others
 
 
-2. [HTML STRUCTURE](https://github.com/jaysshilpakar/HTML-TUTORIAL/1-htmlstructure.html)
+2. [HTML STRUCTURE](https://jaysshilpakar.github.io/HTML-TUTORIAL/1-htmlstructure.html)
 
 <!DOCTYPE html>
 <html>
@@ -31,9 +31,12 @@ HTML TUTORIAL
 
 CONTENTS HERE MEANS DIFFERENT OBJECTS LIKE:
 
+BASICS:
+- [Basic Contents](https://jaysshilpakar.github.io/HTML-TUTORIAL/2-htmlbasics.html)
+
 MULTIMEDIA:
-- TEXT
-- GRAPHICS
+- [TEXT](https://jaysshilpakar.github.io/HTML-TUTORIAL/3-htmltext.html)
+- [GRAPHICS](https://jaysshilpakar.github.io/HTML-TUTORIAL/4-htmlgraphics.html)
 - AUDIO
 - VIDEO
 
