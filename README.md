@@ -10,7 +10,7 @@ HTML TUTORIAL
 - Others
 
 
-2. [HTML STRUCTURE](https://github.com/jaysshilpakar/HTML-TUTORIAL/blob/master/1-htmlstructure.html)
+2. [HTML STRUCTURE](https://github.com/jaysshilpakar/HTML-TUTORIAL/1-htmlstructure.html)
 
 <!DOCTYPE html>
 <html>
