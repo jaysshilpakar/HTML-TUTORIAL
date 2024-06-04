@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <title>
+            Graphics
+        </title>
+        
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+
+        <meta charset="UTF-8">
+
+    </head>
+    <body>
+       
+       <pre>    
+            Image
+            - JPEG
+            - PNG
+            - GIF
+            - ICO
+            - APNG
+            - SVG
+       </pre> 
+
+       <img src="pic_trulli.jpg">
+
+       <img src="pic_trulli.jpg" alt="Italian Trulli">
+
+       <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+
+       <img src="pic_trulli.jpg" alt="Trulli" style="width:500px;height:600px;">
+
+       <img src="/images/pic_trulli.jpg" alt="Trulli" style="width:128px;height:128px;">
+
+       <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+
+
+
+       <img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+
+
+        <a href="default.asp">
+            <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+        </a>
+
+
+        <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+            The image will float to the right of the text.</p>
+            
+        <p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+            The image will float to the left of the text.</p>
+
+
+        <figure>
+            <img src="pic_trulli.jpg" alt="Trulli">
+            <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
+        </figure>
+
+
+        
+        <p style="background-image: url('img_girl.jpg');">
+
+        <p style = "
+                    background-image: url('img_girl.jpg');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    ">
+        </p>
+
+        <p style = "
+        background-image: url('img_girl.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        ">
+        </p>
+
+
+
+        <picture>
+            <source srcset="img_avatar.png">
+            <source srcset="img_girl.jpg">
+            <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+        </picture>
+
+
+        <picture>
+            <source media="(min-width: 650px)" srcset="img_food.jpg">
+            <source media="(min-width: 465px)" srcset="img_car.jpg">
+            <img src="img_girl.jpg">
+          </picture>
+
+
+        <h1>The map and area elements</h1>
+
+        <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+          
+        <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+          
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+            <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+        </map>
+
+
+          
+        <h4>Sized Alphabets</h4>
+
+        <p>I will display A B C</p>
+        <p>I will display &#65; &#66; &#67;</p>
+        
+        <h4>Sized Currency, Arrows, Greek Symbols, Mathematical Symbols, Other Symbols</h4>
+        <p>I will display &euro;</p>
+        <p>I will display &#8364;</p>
+        <p>I will display &#x20AC;</p>
+
+        <p>I will display &prod;</p>
+        <p>I will display &copy; and &reg;</p>
+        <p>I will display &sum;</p>
+
+
+        <p>I will display &Alpha;</p>
+        <p>I will display &Gamma;</p>
+        <p>I will display &Delta;</p>
+
+        &rarr; &diams;  &larr;
+
+
+        <h4>Sized Emojis</h4>
+
+        <p style="font-size:48px">
+            &#128512; &#128516; &#128525; &#128151;
+        </p>
+
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+            Your browser does not support the HTML canvas tag.
+        </canvas>
+
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40"
+            stroke="green" stroke-width="4" fill="yellow" />
+          Sorry, your browser does not support inline SVG.
+        </svg>
+
+
+        <svg width="400" height="120">
+            <rect x="10" y="10" width="200" height="100" stroke="red" stroke-width="6" fill="blue" />
+            Sorry, your browser does not support inline SVG.
+        </svg>
+
+        <svg width="400" height="180">
+            <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+            style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+          Sorry, your browser does not support inline SVG.
+        </svg>
+
+
+        <svg width="300" height="200">
+            <polygon points="100,10 40,198 190,78 10,78 160,198"
+            style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+          Sorry, your browser does not support inline SVG.
+        </svg>
+
+        <svg height="130" width="500">
+            <defs>
+              <linearGradient id="grad1">
+                <stop offset="0%" stop-color="yellow" />
+                <stop offset="100%" stop-color="red" />
+              </linearGradient>
+            </defs>
+            <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+            <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+            Sorry, your browser does not support inline SVG.
+        </svg>
+
+
+    </body>
+</html>
